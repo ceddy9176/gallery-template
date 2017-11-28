@@ -1,0 +1,60 @@
+/* For testing only */
+
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+.columns {
+  min-height: 100px;
+}
+
+/* End for testing */
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  /*height: 100vh;*/
+  background-color: lightgray;
+  overflow: hidden;
+}
+@media (max-width: 800px ) {
+ .header{
+   width: 100vw;
+   height: 10vh;
+   margin-bottom: 1vh;
+ }
+ .thumbnail{
+   width: 47vw;
+   height: 28vh;
+   margin: 1vh 1vw;
+   float: left;
+ }
+}
+@media (max-width: 500px ) {
+ .header{
+   width: 100vw;
+   height: 10vh;
+   margin-bottom: 1vh;
+ }
+ .thumbnail{
+   width: 97vw;
+   height: 28vh;
+   margin: 1vh 1vw;
+ }
+}
+@media (min-width: 801px ) {
+ .header{
+   width: 100vw;
+   height: 15vh;
+   margin-bottom: 2vh;
+ }
+ .thumbnail{
+   width: 31vw;
+   height: 41vh;
+   margin: 1vh 1vw;
+   float: left;
+ }
+}
